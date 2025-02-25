@@ -116,7 +116,7 @@ class LabTester:
             message="Rotations by odd angles with Translation"
         )
 
-        # Test 6: Combined rotations
+        # Test 7: Combined rotations
         point = np.array([2, 5, 6])
         translation = np.array([-2, -7, -1])
         rotation = {'x': 45, 'y': 120, 'z': 60}
@@ -125,8 +125,6 @@ class LabTester:
             transformed, [4.861, -3.926,  1.910], decimal=3,
             message="Rotations by odd angles with Translation"
         )
- 
-
 
 
     def test_chain_transformations(self, chain_transforms: Callable):
