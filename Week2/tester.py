@@ -128,8 +128,8 @@ class LabTester:
 
         # Test 6: 60-degree rotation around the z-axis
         a = np.array([1, 0, 0])   # Initial x-axis
-        o = np.array([np.sqrt(2)/2, np.sqrt(2)/2, 0])  # Target 45-degree in xy-plane
-        expected_rotation = np.array([1, 1, -1])  # Correct expected output
+        o = np.array([np.sqrt(3)/2, 1/2, 0])  # Target 60-degree in xy-plane
+        expected_rotation = np.array([1.  1. -1])  # Correct expected output
         rotation = rotation_two_vector(a, o, point)
         self.assert_array_almost_equal(rotation, expected_rotation, decimal=3, message="60-degree Z Rotation")
 
