@@ -6,7 +6,7 @@ from launch.substitutions import Command, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
 
 def generate_launch_description():
-    pkg_name = FindPackageShare("sasmitha_urdf")
+    pkg_name = FindPackageShare("urdf_ex")
 
     # Robot description using xacro
     robot_description = Command([

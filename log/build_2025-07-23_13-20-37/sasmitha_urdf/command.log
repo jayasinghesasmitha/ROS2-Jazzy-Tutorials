@@ -1,0 +1,6 @@
+Invoking command in '/urdf_ex/build/sasmitha_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /urdf_ex -DCMAKE_INSTALL_PREFIX=/urdf_ex/install/sasmitha_urdf
+Invoked command in '/urdf_ex/build/sasmitha_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /urdf_ex -DCMAKE_INSTALL_PREFIX=/urdf_ex/install/sasmitha_urdf
+Invoking command in '/urdf_ex/build/sasmitha_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /urdf_ex/build/sasmitha_urdf -- -j16 -l16
+Invoked command in '/urdf_ex/build/sasmitha_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /urdf_ex/build/sasmitha_urdf -- -j16 -l16
+Invoking command in '/urdf_ex/build/sasmitha_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /urdf_ex/build/sasmitha_urdf
+Invoked command in '/urdf_ex/build/sasmitha_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /urdf_ex/build/sasmitha_urdf

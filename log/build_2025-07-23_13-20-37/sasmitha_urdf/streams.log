@@ -1,0 +1,63 @@
+[0.027s] Invoking command in '/urdf_ex/build/sasmitha_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /urdf_ex -DCMAKE_INSTALL_PREFIX=/urdf_ex/install/sasmitha_urdf
+[0.190s] -- The C compiler identification is GNU 9.4.0
+[0.313s] -- The CXX compiler identification is GNU 9.4.0
+[0.325s] -- Check for working C compiler: /usr/bin/cc
+[0.502s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.504s] -- Detecting C compiler ABI info
+[0.683s] -- Detecting C compiler ABI info - done
+[0.712s] -- Detecting C compile features
+[0.713s] -- Detecting C compile features - done
+[0.720s] -- Check for working CXX compiler: /usr/bin/c++
+[0.958s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.962s] -- Detecting CXX compiler ABI info
+[1.164s] -- Detecting CXX compiler ABI info - done
+[1.192s] -- Detecting CXX compile features
+[1.193s] -- Detecting CXX compile features - done
+[1.200s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[1.259s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.259s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.508s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[1.656s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.666s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.666s] -- Configured cppcheck include dirs: 
+[1.666s] -- Configured cppcheck exclude dirs and/or files: 
+[1.676s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.677s] -- Configured cpplint exclude dirs and/or files: 
+[1.678s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.681s] -- Added test 'lint_cmake' to check CMake code style
+[1.683s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[1.693s] -- Added test 'uncrustify' to check C / C++ code style
+[1.693s] -- Configured uncrustify additional arguments: 
+[1.695s] -- Added test 'xmllint' to check XML markup files
+[1.697s] -- Configuring done
+[1.699s] -- Generating done
+[1.700s] -- Build files have been written to: /urdf_ex/build/sasmitha_urdf
+[1.705s] Invoked command in '/urdf_ex/build/sasmitha_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake /urdf_ex -DCMAKE_INSTALL_PREFIX=/urdf_ex/install/sasmitha_urdf
+[1.712s] Invoking command in '/urdf_ex/build/sasmitha_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /urdf_ex/build/sasmitha_urdf -- -j16 -l16
+[1.815s] Invoked command in '/urdf_ex/build/sasmitha_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --build /urdf_ex/build/sasmitha_urdf -- -j16 -l16
+[1.928s] Invoking command in '/urdf_ex/build/sasmitha_urdf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /urdf_ex/build/sasmitha_urdf
+[1.953s] -- Install configuration: ""
+[1.954s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//launch
+[1.955s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//launch/simulation.launch.py
+[1.955s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//urdf
+[1.956s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//urdf/robot.gazebo
+[1.956s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//urdf/robot.xacro
+[1.956s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//worlds
+[1.956s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//worlds/four_walls.world
+[1.957s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf//worlds/gazebo_four_walls.world
+[1.957s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/ament_index/resource_index/package_run_dependencies/sasmitha_urdf
+[1.957s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/ament_index/resource_index/parent_prefix_path/sasmitha_urdf
+[1.957s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/environment/ament_prefix_path.sh
+[1.958s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/environment/ament_prefix_path.dsv
+[1.958s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/environment/path.sh
+[1.959s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/environment/path.dsv
+[1.959s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/local_setup.bash
+[1.959s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/local_setup.sh
+[1.960s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/local_setup.zsh
+[1.960s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/local_setup.dsv
+[1.960s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/package.dsv
+[1.961s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/ament_index/resource_index/packages/sasmitha_urdf
+[1.961s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/cmake/sasmitha_urdfConfig.cmake
+[1.962s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/cmake/sasmitha_urdfConfig-version.cmake
+[1.962s] -- Installing: /urdf_ex/install/sasmitha_urdf/share/sasmitha_urdf/package.xml
+[1.972s] Invoked command in '/urdf_ex/build/sasmitha_urdf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/foxy /usr/bin/cmake --install /urdf_ex/build/sasmitha_urdf
